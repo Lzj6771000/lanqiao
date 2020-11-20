@@ -1,0 +1,20 @@
+#一、实现Hero的四个方向的基本移动
+##1、代码块
+1、
+			if(Flag==1)
+			{
+				currentImg=upImgNext;
+				y--;
+				Flag=2;
+			}
+			else
+			{
+				currentImg=upImgThen;
+				y--;
+				Flag=1;
+			}
+2、
+	int Flag=1;
+3、
+			upImgNext=Image.createImage("/sayo04.png");
+			upImgThen=Image.createImage("/sayo24.png");
